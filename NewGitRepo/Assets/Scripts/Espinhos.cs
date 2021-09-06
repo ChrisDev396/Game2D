@@ -9,7 +9,7 @@ public class Espinhos : MonoBehaviour
     private int atrito;
     public Vector3 pos;
     public GameObject espinhoPrefab;
-
+    public float p = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,7 @@ public class Espinhos : MonoBehaviour
 
         pos = transform.position;
     }
+
 
     void OnBecameInvisible()
     {
